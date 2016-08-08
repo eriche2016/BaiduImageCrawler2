@@ -14,4 +14,4 @@ $ ./run.sh
 
 ### Example
 you may need to modify `key_words_list` in `run.sh` file
-to tailor you need.
+for you customized usage.
