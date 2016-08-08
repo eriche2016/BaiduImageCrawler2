@@ -9,7 +9,7 @@ if [ 1 -eq 1 ]; then
     for i in "${key_words_list[@]}"
     do
         new_path="./$i"
-        python crawler.py -key_word '$i' \
+        python crawler.py -key_word $i \
                         -store_dir "$new_path" \
                         -num_images 10 \
                         -num_threads 5 
