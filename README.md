@@ -15,3 +15,5 @@ $ ./run.sh
 ### Example
 you may need to modify `key_words_list` in `run.sh` file
 for customized usage.
+###Note###
+the number of images to be downloaded is at least `-num_images` you specified in [run.sh]()
