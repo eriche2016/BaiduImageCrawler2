@@ -16,4 +16,4 @@ $ ./run.sh
 you may need to modify `key_words_list` in `run.sh` file
 for customized usage.
 ###Note###
-the number of images to be downloaded is at least `-num_images` you specified in [run.sh](https://github.com/eriche2016/BaiduImageCrawler2/blob/master/run.sh#L14)
+the number of images to be downloaded is at least `-num_images` you specified in [run.sh](https://github.com/eriche2016/BaiduImageCrawler2/blob/master/run.sh#L14), becuause in [crawler.py](https://github.com/eriche2016/BaiduImageCrawler2/blob/master/crawler.py#L29), we will first downloaded before this conditional statements truly works(excluding the staring trival case).
